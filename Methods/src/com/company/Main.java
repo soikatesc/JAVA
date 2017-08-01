@@ -2,23 +2,16 @@ package com.company;
 
 public class Main {
 
+    // BYTE LONG STRING INT DOUBLE
     public static void main(String[] args) {
-	// write your code here
-        boolean gameOver = true;
-        int score = 1000;
-        int levelCompleted = 5;
-        int bonus = 100;
+        // INT 32 BITS
 
-        calculateScore(gameOver, score, levelCompleted, bonus);
     }
 
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+    public static void calculateScore() {
+
+        boolean gameOver = true;
 
 
-        if(gameOver) {
-            int finalScore = score + (levelCompleted * bonus);
-            finalScore += 1000;
-            System.out.println("your final score was " + finalScore);
-        }
     }
 }
